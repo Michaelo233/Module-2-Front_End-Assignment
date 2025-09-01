@@ -1,0 +1,112 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to bottom, rgb(51, 50, 50), black);
+}
+.container{
+    background-color: rgb(17, 16, 16);
+    margin: 30px 90px;
+    
+    
+}
+.section{
+    background-color: rgb(17, 16, 16);
+    margin: 0 200px;
+    height: fit-content;
+    width: 320px;
+    padding: 10px 10px;
+    color: white;
+    
+}
+header{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 90px;
+    
+}
+
+.signwith{
+    margin-top: 12px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#signwith{
+    width: 320px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(17, 16, 16);
+    color: white;
+    border: 1px solid rgb(153, 153, 153);
+}
+hr{
+    margin-left: -80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 150%;
+}
+h3{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+input{
+    width: 310px;
+    height: 48px;
+    border-radius: 7px;
+    border: 1px solid rgba(214, 207, 207, 0.87);
+    padding: 0 0 0 10px;
+    font-size: 15px;
+    background-color: rgb(17, 16, 16);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8px;
+    color: white;
+    margin-bottom: -10px;
+}
+
+#button{
+    width: 320px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 25px;
+    background-color: rgba(59, 245, 99, 0.788);
+    border: 1px solid rgb(17, 16, 16);
+    margin-top:50px ;
+}
+
+a{
+    display: block;
+    color:white
+}
+h4 a{
+    display: inline;
+    color: white;
+}
+h4{
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.425);
+    height: 40px;
+}
+p{
+    text-align: center;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.425);
+}
+p a{
+    display: inline;
+    color: rgba(255, 255, 255, 0.425);
+}
+#p{
+    background-color: rgb(17, 16, 16);
+    height: 60px;
+    margin: 0;
+    padding: 20px;
+
+}

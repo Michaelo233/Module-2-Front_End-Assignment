@@ -1,0 +1,364 @@
+*{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(7, 7, 7);
+    overflow-x: scroll;
+}
+body::-webkit-scrollbar{
+    width: 11px;
+}
+body:hover::-webkit-scrollbar{
+    background-color: rgba(128, 128, 128, 0.707);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+i{
+margin-left: 10px;
+    margin-top: 10px;
+}
+#button{
+    display: flex;
+    margin-left: 20px;
+}
+#button button:hover{
+    background-color: rgba(128, 128, 128, 0.274);
+}
+#button button{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    border: 1px solid rgba(128, 128, 128, 0.151);
+    height: 47px;
+    width: 410px;
+    background-color: rgba(128, 128, 128, 0.151);
+    margin-left: 10px;
+}
+input{
+    background-color: rgba(128, 128, 128, 0);
+   width: 280px;
+   height: 30px;
+   border: none;
+   border-right: 1px solid rgba(128, 128, 128, 0.89);
+   font-size: 17px;
+   margin-top: 5px;
+}
+
+#sign{
+    margin-right: 6px;
+    
+}
+#sign a{
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.89);
+    
+}
+#sign a:hover{
+color: white;
+
+}
+#sign button a{
+    color: black;
+    font-size: 15px;
+    
+}
+#sign button:hover{
+    border: 2px solid white;
+    
+}
+#sign button a:hover{
+    color: black;
+    font-weight: bold;
+    
+}
+#sign button{
+    height: 47px;
+    width: 110px;
+    border-radius: 30px;
+    border: 3px solid black;
+    margin-left: 15px;
+}
+.section1{
+    display: flex;
+    margin-top: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    height: 76vh;
+
+}
+#section1div1{
+    width: 60vw;
+    background-color: rgba(29, 27, 27, 0.349);
+    border-radius: 5px;
+    padding: 10px;
+    padding-right: 0;
+}
+#section1div2{
+    overflow-y: scroll;
+    width: 60vw;
+    background-image: linear-gradient(rgb(27, 27, 27),  rgba(29, 27, 27, 0.349), rgba(29, 27, 27, 0.349));
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 0px 5px;
+    margin-right: 6px;
+}
+#section1div2::-webkit-scrollbar{
+width: 14px;
+}
+#section1div2:hover::-webkit-scrollbar-thumb{
+background-color: rgba(128, 128, 128, 0.727);
+}
+h3{
+    font-size: 15px;
+    font-weight: bold;
+}
+#section1{
+overflow-y: scroll;
+height: 30vh;
+margin-top: 40px;
+padding-right: 0;
+}
+#section1::-webkit-scrollbar{
+    width: 14px;
+}
+
+#section1:hover::-webkit-scrollbar-thumb{
+    background-color: rgba(128, 128, 128, 0.727);
+}
+#section1p{
+    margin-left: 60px;
+}
+.container{
+    background-color: rgba(128, 128, 128, 0.151);
+    height: fit-content;
+    padding: 10px 20px;
+    padding-right: 0;
+    border-radius: 15px;
+}
+.container p{
+    font-size: 13.5px;
+}
+.container button{
+    color: black;
+    font-weight: bolder;
+    font-size: 14px;
+    border-radius: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.151);
+    padding: 7px 15px;
+}
+#container{
+    margin-top: 30px;
+}
+#div{
+    padding: 10px 20px;
+    margin-top: 10px;
+    
+}
+#div p{
+    word-spacing: 20px;
+}
+#div p a{
+    text-decoration: none;
+    font-size: 10.5px;
+    line-height: 30px;
+    font-weight: lighter;
+    color: rgba(128, 128, 128, 0.89); 
+}
+#div a{
+   text-decoration: none;
+   font-size: 13px; 
+}
+#div button{
+    display: block;
+    margin-top: 50px;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.151);
+    border-radius: 15px;
+    font-weight: bold;
+    border: 1px solid rgba(128, 128, 128, 0.151);
+    padding: 8px 20px ;
+}
+/*banner*/
+.banner{
+    padding: 3px 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 70px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(233, 66, 219, 0.829), rgb(111, 111, 245));
+}
+.banner p{
+    font-size: 15px;
+    margin-bottom: -0px;
+}
+.banner .p2{
+    margin-top: 0;
+}
+.banner button{
+    height: 47px;
+    width: 130px;
+    border-radius: 30px;
+    border: 3px solid rgba(0, 0, 0, 0);
+    margin-top: -37px;
+    margin-left: 100px;
+    display: inline;
+    float: right;
+}
+.banner a{
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#showall{
+    float:right ;
+    margin-top: -32px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.89);
+}
+#PopularArtist{
+    height: 130px;
+    width: 130px;
+    background-image: url("/8d3acfeb9f7036a171ff8b3192a3fc3c.jpg");
+    border-radius: 70px;
+    margin-bottom: 15px;
+}
+.Popular a{
+    font-size: 16px
+}
+.Popular{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px;
+    margin-bottom: 50px;
+}
+.Popular div{
+    width: 180px;
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: -20px;
+    border-radius: 5px;
+    
+    
+}
+.Popular div:hover{
+    background-color: rgba(128, 128, 128, 0.089);
+}
+.Popular h4{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.89);
+}
+#PopularAlbum{
+    height: 130px;
+    width: 130px;
+    background-image: url("/8d3acfeb9f7036a171ff8b3192a3fc3c.jpg") ;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+#section2 a{
+    display: block;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.89);
+
+}
+#section2{
+    display: inline;
+    margin-bottom: 60px;
+    padding-left: 10px
+}
+.end{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 55.5px);
+    
+}
+.end button{
+    border-radius: 40px;
+    height: 40px;
+    width: 40px;
+   background-color: rgba(29, 27, 27, 0.349);
+   border: 1px solid white;
+}
+
+h5{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: lighter;
+color: rgba(128, 128, 128, 0.89);
+margin-top: 60px;
+margin-bottom: 100px;
+}
+h2{
+    font-size: 18px;
+    margin-left: 20px;
+}
+@media screen and (min-width: 1000px) {
+    body{
+        overflow: hidden;
+    }
+    #section1div2{
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 30px;
+    }
+    #section1div1{
+        width: 37%;
+    }
+    .section1{
+        height: 80vh;
+    }
+    #section1{
+        overflow-y: scroll;
+        height: 35vh;
+        margin-top:30px ;
+    }
+    #div button{
+        margin-top: 30px;
+    }
+    #PopularArtist{
+        height: 120px;
+        width: 120px;
+    }
+    #PopularAlbum{
+        height: 120px;
+        width: 120px;
+    }
+    h2{
+        font-size: 22px;
+    }
+
+.buttom{
+    display: flex;
+    justify-content: space-between;
+
+}
+    #section2{
+        display: block;
+        padding-left: 10px;
+    }
+    .banner{
+        padding-right: 90px;
+        margin-bottom: 50px;
+        height: 60px;
+        width: 98%;
+    }
+    .banner button{
+        margin-top: -43px;
+    }
+    
+}

@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(17, 16, 16);
+    
+}
+.section{
+    background-color: rgb(17, 16, 16);
+    margin: 0 310px;
+    height: fit-content;
+    width: 320px;
+    padding: 10px 10px;
+    color: white;
+    
+}
+header{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-top: 100px;
+    font-weight: bold;
+    
+}
+
+h5{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+}
+input{
+    width: 310px;
+    height: 48px;
+    border-radius: 7px;
+    border: 1px solid rgba(214, 207, 207, 0.87);
+    padding: 0 0 0 10px;
+    font-size: 15px;
+    background-color: rgb(17, 16, 16);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8px;
+    color: white;
+    margin-bottom: -10px;
+}
+#number{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(60, 201, 91);
+    
+}
+#button{
+    width: 320px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 25px;
+    background-color: rgba(59, 245, 99, 0.788);
+    border: 1px solid rgb(17, 16, 16);
+}
+h6{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.425) ;
+    line-height: 1px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+span{
+    background: rgb(17, 16, 16);
+    padding: 0 13px;
+}
+a{
+    display: block;
+    color:white
+}
+.signwith{
+    margin-top: 12px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#signwith{
+    width: 320px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(17, 16, 16);
+    color: white;
+    border: 1px solid rgb(153, 153, 153);
+}
+hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h4 a{
+    display: inline;
+    color: white;
+}
+h4{
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.425);
+    height: 90px;
+}
+p{
+    text-align: center;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.425);
+}
+p a{
+    display: inline;
+    color: rgba(255, 255, 255, 0.425);
+}
