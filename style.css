@@ -1,6 +1,9 @@
 main {
     display: flex;
+     margin: 50px 25px 30px 250px;
 }
 div {
     display: block;
+    border: 1px solid burlywood;
+    padding: 50px;
 }
