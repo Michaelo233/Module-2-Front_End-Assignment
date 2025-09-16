@@ -2,8 +2,20 @@ main {
     display: flex;
      margin: 50px 25px 30px 250px;
 }
+
 div {
     display: block;
     border: 1px solid burlywood;
     padding: 50px;
+}
+.work_info {
+    padding-top: 100px;
+}
+
+#first_border {
+    margin-bottom: 50px;
+}
+
+li {
+    margin-bottom: 10px;
 }
