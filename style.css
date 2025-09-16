@@ -18,7 +18,8 @@ div {
 
 li {
     margin-top: 15px;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    
 }
 .spaced_ul {
     margin-bottom: 100px;
@@ -36,5 +37,21 @@ h1{
     background-color: rgb(245, 241, 236);
 }
 h2 {
+    font-weight: bolder;
     font-size: 17px;
+}
+
+a {
+    color: rgba(0, 0, 255, 0.726);
+}
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color:blue ;
+    font-weight: bolder;
+}
+a:active {
+ color: red;   
 }
