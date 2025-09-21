@@ -3,11 +3,22 @@ main {
      margin: 50px 25px 30px 250px;
 }
 
+.circle {
+    border-radius: 10px;
+}
 div {
     display: block;
     border: 1px solid burlywood;
     padding: 50px;
 }
+
+div .hr{
+    margin-bottom: -30px;
+    margin-top: -60px;
+    border: none;
+
+}
+
 .work_info {
     padding-top: 100px;
 }
@@ -15,6 +26,7 @@ div {
 #first_border {
     margin-bottom: 50px;
 }
+
 
 li {
     margin-top: 15px;
@@ -29,7 +41,7 @@ li {
     margin-bottom: 50px;
 }
 h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size:25px;
     font-weight: bolder;
 }
@@ -37,6 +49,7 @@ h1{
     background-color: rgb(245, 241, 236);
 }
 h2 {
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: 17px;
 }
@@ -53,11 +66,104 @@ a:hover {
     font-weight: bolder;
 }
 a:active {
- color: red;   
+    color: red;   
 }
 
 #last_paragraph {
     margin-top: 38px;
     font-size: 20px;
     color: rgba(65, 4, 4, 0.911);
+}
+
+@media only screen and (max-width: 800px) {
+    main {
+        display: inline;
+    }
+    
+    div {
+        padding: 80px;
+        padding-left: 90px;
+        background-color: white;
+        border: 1px hidden white;
+    }
+    
+    .personal_info {
+        background-color: white;
+    }
+
+    .circle {
+        display: block;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        margin-left: 35px;
+        margin-right: 35px;
+        height: 160PX;
+        width: 160PX;
+        justify-self: center;
+        
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    h2 {
+        font-size: larger;
+        font-weight: bold;
+        margin-top: 70px;
+    }
+
+    li, ul{
+        margin-top: 1px;
+    }
+    ul, .spaced_ul, .space_li {
+        text-decoration: none;
+        margin-bottom: 0px;
+        margin-top: 0;
+    }
+
+    ul .none{
+        list-style-type: none;
+        padding: 0;
+        margin-left: -15px;
+    }
+    .work_info {
+        padding-top: 0px;
+        margin-top: 1px;
+    }
+    div .hr{
+        border-bottom: 0.125rem solid black;
+        margin-bottom: +30px;
+        margin-top: -160px;
+        width: 50%;
+        justify-content: center;
+        
+    }
+    
+    span {
+        margin-left: 25%;
+        justify-content: center;
+    }
+    
+}
+
+@media (min-width: 801px) and (max-width: 1100px) {
+    main {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 1101px) and (max-width: 1500px) {
+    main {
+        margin-left:80px;
+        margin-right: 90px;
+    }
+}
+
+@media (min-width: 1501px){
+    main {
+        margin-left: 300px;
+        margin-right: 100px;
+    }
 }
